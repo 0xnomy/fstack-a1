@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Project Showcase — Portfolio</title>
+  <meta name="description" content="A curated showcase of selected projects and creative work.">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <h1 class="page-title">My Projects</h1>
+
+  <article class="card">
+    <img
+      src="https://picsum.photos/seed/project/600/300"
+      alt="Screenshot of the Solstice Weather Dashboard project showing a minimal interface with live forecast data"
+      class="card__image"
+    >
+
+    <div class="card__body">
+      <h2 class="card__heading">Solstice — Weather Dashboard</h2>
+
+      <p class="card__description">
+        A minimal, responsive weather dashboard that pulls live forecast data and
+        presents it through clean data visualizations. Built with accessibility in
+        mind, it supports dark mode and keyboard navigation out of the box.
+      </p>
+
+      <h3 class="card__tech-label">Built With</h3>
+      <ul class="card__tech-list">
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+        <li>Git</li>
+        <li>REST APIs</li>
+      </ul>
+
+      <a href="#" class="card__button" role="button">View Project</a>
+    </div>
+  </article>
+
+  <section class="deliverables">
+    <h2 class="deliverables__title">Requirements Checklist</h2>
+    <div class="deliverables__list">
+      <details class="deliverables__item">
+        <summary>Task 1: File Setup</summary>
+        <div class="deliverables__content">
+          <ul>
+            <li>✅ Created <code>index.html</code> and <code>style.css</code></li>
+            <li>✅ Link tag placed in <code>&lt;head&gt;</code></li>
+            <li>✅ Absolutely no inline styles or <code>&lt;style&gt;</code> tags used</li>
+          </ul>
+        </div>
+      </details>
+      <details class="deliverables__item">
+        <summary>Task 2: HTML Structure</summary>
+        <div class="deliverables__content">
+          <ul>
+            <li>✅ Semantic <code>&lt;article&gt;</code> used for card, plus <code>&lt;h1&gt;</code> and <code>&lt;h2&gt;</code></li>
+            <li>✅ Included an <code>&lt;img&gt;</code> with Picsum URL and <code>alt</code> text</li>
+            <li>✅ Description paragraph context provided</li>
+            <li>✅ Tech stack listed properly using <code>&lt;ul&gt;</code></li>
+            <li>✅ Styled functional "View Project" <code>&lt;a role="button"&gt;</code></li>
+            <li>✅ Full baseline HTML attributes (DOCTYPE, metas, semantics)</li>
+          </ul>
+        </div>
+      </details>
+      <details class="deliverables__item">
+        <summary>Task 3: CSS Styling</summary>
+        <div class="deliverables__content">
+          <ul>
+            <li>✅ Card specifically leverages <code>border</code>, <code>border-radius</code>, <code>padding</code>, <code>margin</code>, and <code>box-shadow</code></li>
+            <li>✅ Distinctive custom fonts imported (Playfair Display)</li>
+            <li>✅ Considered, contrasting warm background colors</li>
+            <li>✅ Reassigned default list bullets entirely to custom elements using <code>::before</code></li>
+            <li>✅ Button specifically defines <code>background-color</code>, <code>padding</code>, <code>border</code>, <code>border-radius</code>, <code>cursor</code>, and active <code>:hover</code> states</li>
+          </ul>
+        </div>
+      </details>
+      <details class="deliverables__item">
+        <summary>Task 4: Advanced CSS</summary>
+        <div class="deliverables__content">
+          <ul>
+            <li>✅ Completely centered layout leveraging CSS Flexbox on the body</li>
+            <li>✅ Dynamic <code>transform: scale(1.02)</code> & shadow lift smoothing animation on card hover</li>
+            <li>✅ Adaptive layout scaling leveraging a bottom CSS media query</li>
+          </ul>
+        </div>
+      </details>
+    </div>
+  </section>
+
+</body>
+</html>
